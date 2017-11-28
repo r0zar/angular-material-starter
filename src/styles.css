@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  margin: 0px;
+  background-color: whitesmoke;
+}
+
+mat-toolbar {
+  z-index: 10;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.26);
+}
+
+.title {
+  margin-right: 40px;
+}
+
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.example-card {
+  width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
